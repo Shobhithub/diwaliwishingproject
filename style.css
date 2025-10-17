@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-image: url("https://bestanimations.com/media/fireworks2/1589967346ba-pretty-delicate-firework-animated-gif-image.gif");
+     
+    background-position: fixed; 
+    background-size: cover;
+    overflow: auto; 
+    cursor: pointer;
+}
+.main-content{
+    text-align: center;
+    color: gold;
+    font-size: large;
+    font-family: italic;
+
+}
+
+.diyaleftside{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.diyarightside{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+h1{
+    align-items: center;
+    justify-content: space-around;
+    margin: bottom 70px;
+    font-weight: 900;
+    animation: spanimation 1s ease-in-out infinite ;
+}
+
+.diyadwnleft{
+    margin-top: 300px;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+.diyadwnright{
+    margin-top: 300px;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+h2{
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    font-weight: 500;
+    animation: spanimation 1s ease-in-out infinite ;
+
+}
+.diyas{
+    align-items: center;
+    width: 500px;
+    height: 280px;
+}
+
+.leftlights{
+    margin-top: 140px;
+    float: left;
+    width: 160px;
+    height: 180px;
+}
+.rightLights{
+    margin-top: 140px;
+    float: right;
+    width: 160px;
+    height: 180px;
+}
+.sweets{
+    width: 150px;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.sweets2{
+    width: 150px;
+    height: 140px;
+    float: right;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+.sweet{
+    display: flex;
+}
+
+.glow{
+      color: gold;
+      font-size: 30px;
+      font-weight: bold;
+      animation: spanimation 2s infinite alternate;
+}
+
+
+@keyframes spanimation {
+      from {
+        text-shadow: 
+          0px 0px 50px rgb(165, 62, 22),
+          0px 0px 20px rgb(165, 62, 22),
+          0px 0px 30px #ffd700,
+          0px 0px 40px rgb(212, 65, 6),
+          0px 0px 50px rgb(240, 75, 9);
+      }
+      to {
+        text-shadow: 
+          0px 0px 40px rgb(16, 167, 46),
+          0px 0px 20px gold,
+          0px 0px 30px rgb(212, 65, 6),
+          0px 0px 60px rgba(221, 195, 25, 0.77),
+          0px 0px 50px rgba(16, 175, 43, 0.86);
+      }
+    }
+.more-images{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.more-images img{
+
+    width: 50%;
+    height: 250px;
+}
+.more-wishes h1{
+    text-align: center;
+    color: rgb(246, 4, 182);
+    align-items: center;
+    justify-content: center;
+}
+.more-wishes p{
+    margin: 30px;
+}
